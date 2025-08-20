@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "transactionId": "txn001",
+      "userId": "abc123",
+      "productId": "prod001",
+      "quantity": 1,
+      "totalPrice": 1200
+    },
+    {
+      "transactionId": "txn002",
+      "userId": "abc124",
+      "productId": "prod002",
+      "quantity": 2,
+      "totalPrice": 1600
+    },
+    {
+      "transactionId": "txn003",
+      "userId": "def456",
+      "productId": "prod003",
+      "quantity": 1,
+      "totalPrice": 300
+    },
+    {
+      "transactionId": "txn004",
+      "userId": "hdy847",
+      "productId": "prod004",
+      "quantity": 1,
+      "totalPrice": 150
+    }
+  ]
+}

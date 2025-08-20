@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "productId": "prod001",
+      "productName": "Laptop",
+      "productDescription": "A high-performance laptop.",
+      "productPrice": "1200",
+      "productCategory": "Electronics"
+    },
+    {
+      "productId": "prod002",
+      "productName": "Smartphone",
+      "productDescription": "A latest model smartphone.",
+      "productPrice": "800",
+      "productCategory": "Electronics"
+    },
+    {
+      "productId": "prod003",
+      "productName": "Headphones",
+      "productDescription": "Noise-cancelling headphones.",
+      "productPrice": "300",
+      "productCategory": "Accessories"
+    },
+    {
+      "productId": "prod004",
+      "productName": "Coffee Maker",
+      "productDescription": "A programmable coffee maker.",
+      "productPrice": "150",
+      "productCategory": "Home Appliances"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "userId": "abc123",
+      "userName": "John Doe",
+      "userEmail": "john.doe@example.com",
+      "userAge": "30",
+      "userPassword": "password123"
+    },
+    {
+      "userId": "abc124",
+      "userName": "Felipe Torres",
+      "userEmail": "felipe.torres@example.com",
+      "userAge": "28",
+      "userPassword": "password123"
+    },
+    {
+      "userId": "def456",
+      "userName": "Jane Smith",
+      "userEmail": "jane.smith@example.com",
+      "userAge": "25",
+      "userPassword": "password456"
+    },
+    {
+      "userId": "hdy847",
+      "userName": "Julieta Venegas",
+      "userEmail": "julieta.venegas@example.com",
+      "userAge": "21",
+      "userPassword": "password456"
+    }
+  ]
+}
