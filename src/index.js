@@ -13,6 +13,15 @@ app.get("/users", (req, res) => {
   res.send(users);
 });
 
+app.get("/users/:userId", (req, res) => {
+  const userId = req.params.userId;
+
+  // filtrar el user Id
+  const findUser = users.data.filter((u) => u.userId === userId);
+
+  res.json({ data: findUser, code: 200 });
+});
+
 app.get("/products", (req, res) => {
   res.send(products);
 });
