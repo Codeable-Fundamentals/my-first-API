@@ -8,10 +8,23 @@ const port = 3000;
 
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  console.log(`${req.method} ${req.url}`);
-  res.send("HOLA chicos estoy usando express, desde el servidor");
-});
+const funcion1 = (_req, _res, next) => {
+  console.log("Primer Handler ....");
+  next();
+};
+
+const funcion2 = (_req, _res, next) => {
+  console.log("Segundo Handler....");
+  next();
+};
+
+const funcion3 = (_req, _res, next) => {
+  console.log("Tercer Handler...");
+  _res.send("Hola muchacho@S!");
+  next();
+};
+
+app.get("/", funcion1, funcion2, funcion3);
 
 // RUTA para listar todos los usuarios
 app.get("/users", (req, res) => {
